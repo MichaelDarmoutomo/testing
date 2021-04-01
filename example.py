@@ -1,6 +1,16 @@
-def add(a,b):
-	return a + b
+def add(a, b):
+    return a + b
+
 
 def test_add():
-	assert add(0.1,0.2) - 0.3 < 1e-06
-	assert add('space', 'ship') == 'spaceship'
+    assert add(2, 3) == 5
+    assert add('space', 'ship') == 'spaceship'
+
+
+def subtract(a, b):
+    return a - b  # <--- fix this 
+
+
+# uncomment the following test
+#def test_subtract():
+#    assert subtract(2, 3) == -1
